@@ -8,3 +8,6 @@ This repo gives you CPU and GPU implementation of NMS. I did not find good GPU i
 
 References: David Oro, Carles Fernandez, Xavier Martorell, Javier Hernando. Work-Efficient Parallel
 non-maximum suppression for embedded GPU architecture,Herta Security, Barcelona, Spain.
+
+Parameters：
+	* theta：if  IOU of two box is smaller than theta, it will be keep high score box and remove low score.
